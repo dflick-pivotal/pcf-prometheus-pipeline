@@ -10,7 +10,7 @@ function login_to_director() {
 		source "$CREDS/bosh2_commandline_credentials"
 	else
 		export BOSH_CA_CERT=$(cat "$CREDS/bosh-ca.pem")
-		export BOSH_ENVIRONMENT="$(cat "$CREDS/director_ip")"
+		export BOSH_ENVIRONMENT=35.241.164.179
 		export BOSH_CLIENT=$(cat "$CREDS/bosh-username")
 		export BOSH_CLIENT_SECRET=$(cat "$CREDS/bosh-pass")
 	fi
