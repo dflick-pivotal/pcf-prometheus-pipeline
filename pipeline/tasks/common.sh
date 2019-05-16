@@ -49,5 +49,5 @@ function login_to_bosh_uaa() {
 #	uaac token owner get login -s $uaa_login_password<<EOF
 # admin
 # $uaa_admin_password
-EOF
+# EOF
 }
